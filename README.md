@@ -33,6 +33,7 @@ A partial loader which creates only all step sub-networks. Not sop nodes. User c
 
 Push button trigger's the inhouse publisher gui framework, shows all the new published bassets that not already included in the houdini shot context. Artist can able to select more than one basset and load into the scene file.
 
+ Click :point_down: [Youtube Link]
 
 [![Houdini Shot Builder Demo Video](https://img.youtube.com/vi/u0Z5AEPESfg/0.jpg)](https://youtu.be/u0Z5AEPESfg)
 
