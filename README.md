@@ -21,7 +21,7 @@ When creating sop nodes in the obj context few concepts are taken in to count.
 Step precedence plays which step took priority to the other existing one. if project preset configured with "ani>lay>mmd", 'ani' took first priority than 'lay'. If same basset exist in 'ani' and 'lay', layout subnetwork basset menu entry for that basset is disabled and 'ani' basset menu is enabled.  Lod precedence on the other hand, if a basset has 'Low', 'Mid, 'High' lods, only the 'Low' Lod is loaded in the respective 
 subnetwork menu. Bassets succeeding the lod and step precedence is allowed to loading in to the obj context.
 
-'Build Shot' 
+***Build Shot***
     - Create all the step sub-networks related to the shot inside shot builder HDA and creates sop nodes inside object context having object merge node referencing the individual bassets. 
 
 'Init Shot'
