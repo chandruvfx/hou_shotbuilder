@@ -22,6 +22,7 @@ Step precedence plays which step took priority to the other existing one. if pro
 subnetwork menu. Bassets succeeding the lod and step precedence is allowed to loading in to the obj context.
 
 ***Build Shot***
+
     - Create all the step sub-networks related to the shot inside shot builder HDA and creates sop nodes inside object context having object merge node referencing the individual bassets. 
 
 'Init Shot'
