@@ -23,11 +23,17 @@ subnetwork menu. Bassets succeeding the lod and step precedence is allowed to lo
 
 ***Build Shot***
 
-    - Create all the step sub-networks related to the shot inside shot builder HDA and creates sop nodes inside object context having object merge node referencing the individual bassets. 
+Create all the step sub-networks related to the shot inside shot builder HDA and creates sop nodes inside object context having object merge node referencing the individual bassets. 
 
-'Init Shot'
-    - A partial loader which creates only all step sub-networks. Not sop nodes. User can able to select bassets in the step subnetworks and build the shot in the object context
+***Init Shot***
 
-'Update basset'
-    - Push button trigger's the inhouse publisher gui framework, shows all the new published bassets that not already included in the houdini shot context. Artist can able to select more than one basset and load into the scene file.
+A partial loader which creates only all step sub-networks. Not sop nodes. User can able to select bassets in the step subnetworks and build the shot in the object context
+
+***Update basset***
+
+Push button trigger's the inhouse publisher gui framework, shows all the new published bassets that not already included in the houdini shot context. Artist can able to select more than one basset and load into the scene file.
+
+
+[![Houdini Shot Builder Demo Video](https://img.youtube.com/vi/u0Z5AEPESfg/0.jpg)](https://youtu.be/u0Z5AEPESfg)
+
 
